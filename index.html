@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+<title>Lip&Nova - Güzellik Blogu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Lip&Nova" name="keywords">
+    <meta content="Lip&Nova" name="description">
+  <!-- Favicon -->
+    <link href="img/logo.png" rel="icon">
+    <link href="img/logo.png" rel="apple-touch-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Lip&Nova</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Ana Sayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#iletisim">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-5">
+        <div class="container">
+            <h1>Lip&Nova'ya Hoş Geldiniz!</h1>
+            <p class="lead">Güzelliğin ipuçları ve püf noktaları için doğru yerdesiniz.</p>
+            <img src="img/lipNova-banner.png" class="img-fluid rounded mt-4" alt="Lip&Nova Banner">
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Son Yazılar</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/cilt-bakimi.png" class="card-img-top" alt="Cilt Bakımı Görseli">
+                        <div class="card-body">
+                            <h5 class="card-title">Cilt Bakımında 3 Temel Adım</h5>
+                            <p class="card-text">Cildinizi canlı tutmak için basit ama etkili yöntemler.</p>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/makyaj-teknik.png" class="card-img-top" alt="Doğal Makyaj Görseli">
+                        <div class="card-body">
+                            <h5 class="card-title">Doğal Makyaj Teknikleri</h5>
+                            <p class="card-text">Günlük hayatınıza uygun hafif makyaj tüyoları.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/sac-bakimi.png" class="card-img-top" alt="Saç Bakımı Görseli">
+                        <div class="card-body">
+                            <h5 class="card-title">Saç Bakımı İçin Doğal Yağlar</h5>
+                            <p class="card-text">Parlak ve sağlıklı saçlar için öneriler.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/sac-bakim-tarif.png" class="card-img-top" alt="Saç Uzatma Tarifi">
+                        <div class="card-body">
+                            <h5 class="card-title">Saç Uzatma İçin Doğal Tarifler</h5>
+                            <p class="card-text">Hint yağı ve biberiye yağı ile sağlıklı ve hızlı saç uzatma tüyoları.</p>
+                            <ul>
+                                <li>Hint yağı ve zeytinyağını karıştırıp saç diplerinize masaj yaparak uygulayın.</li>
+                                <li>Bir saat bekledikten sonra saçınızı yıkayın.</li>
+                            </ul>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <img src="img/cilt-bakim-maske.png" class="card-img-top" alt="Cilt Lekesi Tarifi">
+                        <div class="card-body">
+                            <h5 class="card-title">Cilt Lekelerini Gidermek İçin Maskeler</h5>
+                            <p class="card-text">Yoğurt ve limon maskesi ile cilt lekelerine doğal çözüm.</p>
+                            <ul>
+                                <li>1 yemek kaşığı yoğurt ve birkaç damla limon suyunu karıştırın.</li>
+                                <li>Cildinize sürüp 15 dakika bekleyin, ardından durulayın.</li>
+                            </ul>
+			 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="iletisim" class="py-5">
+        <div class="container">
+            <h2 class="text-center">İletişim</h2>
+            <p class="text-center mb-4">Sorularınız veya önerileriniz için bize yazabilirsiniz!</p>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Adınız</label>
+                    <input type="text" class="form-control" id="name" placeholder="Adınızı girin">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-posta</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@example.com" >
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mesajınız</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Mesajınızı yazın..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3">
+        <p>&copy; 2024 Lip&Nova. Tüm Hakları Saklıdır. | <a href="#" class="text-white">Gizlilik Politikası</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
